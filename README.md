@@ -90,3 +90,23 @@ The system is a healthcare appointment platform that allows users to search for 
 * Notifications are event-driven and support reminders, cancellations, and re-engagement flows
 * The system supports both direct booking and external (IVR-based) appointment creation
 * Doctor availability and actual time slots must be handled separately to support scalability and flexibility
+
+# Relationships 
+
+* User (1) → (M) Patient
+* User (1) → (M) Appointment
+* Patient (1) → (M) Appointment
+* Doctor (1) → (M) Availability
+* Doctor (1) → (M) TimeSlot
+* TimeSlot (1) → (1) Appointment
+* Appointment (1) → (1) Payment
+* Appointment (1) → (1) Feedback
+* Appointment (1) → (M) Chat
+* User (1) → (M) Notification
+* User (1) → (M) SupportTicket
+* Doctor (M) → (1) Clinic
+* User (1) → (M) FamilyMapping
+* Patient (1) → (M) FamilyMapping
+* Doctor (1) → (M) Group
+* Group (1) → (M) GroupMembers
+* Patient (1) → (M) GroupMembers
