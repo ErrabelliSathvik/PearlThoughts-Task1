@@ -110,3 +110,6 @@ The system is a healthcare appointment platform that allows users to search for 
 * Doctor (1) → (M) Group
 * Group (1) → (M) GroupMembers
 * Patient (1) → (M) GroupMembers
+
+## Live Diagram
+https://dbdiagram.io/d/Schedula-Healthcare-Appointment-System-ER-Diagram-69d5ffc88089629684447dc9
