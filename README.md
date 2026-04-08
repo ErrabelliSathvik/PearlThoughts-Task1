@@ -113,3 +113,10 @@ The system is a healthcare appointment platform that allows users to search for 
 
 ## Live Diagram
 https://dbdiagram.io/d/Schedula-Healthcare-Appointment-System-ER-Diagram-69d5ffc88089629684447dc9
+
+## ER Diagram
+
+The following diagram represents the database design of the Schedula healthcare appointment system.
+
+![ER Diagram](er-diagram.png)
+
